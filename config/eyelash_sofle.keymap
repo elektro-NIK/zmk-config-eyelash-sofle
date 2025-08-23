@@ -223,7 +223,7 @@
 
         combo_F12 {
             bindings = <&kp F12>;
-            key-positions = <13 0>;
+            key-positions = <25 38>;
             layers = <0>;
         };
     };
