@@ -266,3 +266,4 @@ combos:
   l: [Base]
 - p: [15, 28]
   k: {t: '2', s: '@'}
+  l: [Base]
