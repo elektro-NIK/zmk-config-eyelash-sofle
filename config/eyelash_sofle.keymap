@@ -98,6 +98,7 @@
         C_N2 {
             bindings = <&kp N2>;
             key-positions = <15 28>;
+            layers = <0>;
         };
     };
 
