@@ -86,6 +86,16 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        C_N1 {
+            bindings = <&kp KP_N1>;
+            key-positions = <14 27>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
