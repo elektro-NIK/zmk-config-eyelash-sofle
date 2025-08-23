@@ -294,3 +294,39 @@ combos:
 - p: [13, 26]
   k: {t: '`', s: '~'}
   l: [Base]
+- p: [14, 1]
+  k: F1
+  l: [Base]
+- p: [2, 15]
+  k: F2
+  l: [Base]
+- p: [3, 16]
+  k: F3
+  l: [Base]
+- p: [17, 4]
+  k: F4
+  l: [Base]
+- p: [18, 5]
+  k: F5
+  l: [Base]
+- p: [20, 7]
+  k: F6
+  l: [Base]
+- p: [8, 21]
+  k: F7
+  l: [Base]
+- p: [22, 9]
+  k: F8
+  l: [Base]
+- p: [10, 23]
+  k: F9
+  l: [Base]
+- p: [24, 11]
+  k: F10
+  l: [Base]
+- p: [25, 12]
+  k: F11
+  l: [Base]
+- p: [13, 0]
+  k: F12
+  l: [Base]
