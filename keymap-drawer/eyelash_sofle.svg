@@ -644,6 +644,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">RGUI</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="70" y="127" width="28" height="26" class="combo"/>
+<text x="84" y="140" class="combo tap">
+<tspan x="84" dy="-0.6em">KP</tspan><tspan x="84" dy="1.2em">1</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-Symbols">
