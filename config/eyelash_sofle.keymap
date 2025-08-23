@@ -89,69 +89,141 @@
     combos {
         compatible = "zmk,combos";
 
-        C_N1 {
+        combo_1 {
             bindings = <&kp N1>;
             key-positions = <14 27>;
             layers = <0>;
         };
 
-        C_N2 {
+        combo_2 {
             bindings = <&kp N2>;
             key-positions = <15 28>;
             layers = <0>;
         };
 
-        C_N3 {
+        combo_3 {
             bindings = <&kp N3>;
             key-positions = <29 16>;
             layers = <0>;
         };
 
-        C_N4 {
+        combo_4 {
             bindings = <&kp N4>;
             key-positions = <17 30>;
             layers = <0>;
         };
 
-        C_N5 {
+        combo_5 {
             bindings = <&kp N5>;
             key-positions = <31 18>;
             layers = <0>;
         };
 
-        C_N6 {
+        combo_6 {
             bindings = <&kp N6>;
             key-positions = <20 33>;
             layers = <0>;
         };
 
-        C_N7 {
+        combo_7 {
             bindings = <&kp N7>;
             key-positions = <21 34>;
             layers = <0>;
         };
 
-        C_N8 {
+        combo_8 {
             bindings = <&kp N8>;
             key-positions = <35 22>;
             layers = <0>;
         };
 
-        C_N9 {
+        combo_9 {
             bindings = <&kp N9>;
             key-positions = <23 36>;
             layers = <0>;
         };
 
-        C_N0 {
+        combo_0 {
             bindings = <&kp N0>;
             key-positions = <24 37>;
             layers = <0>;
         };
 
-        C_GRAVE {
+        combo_grave {
             bindings = <&kp GRAVE>;
             key-positions = <13 26>;
+            layers = <0>;
+        };
+
+        combo_F1 {
+            bindings = <&kp F1>;
+            key-positions = <14 1>;
+            layers = <0>;
+        };
+
+        combo_F2 {
+            bindings = <&kp F2>;
+            key-positions = <2 15>;
+            layers = <0>;
+        };
+
+        combo_F3 {
+            bindings = <&kp F3>;
+            key-positions = <3 16>;
+            layers = <0>;
+        };
+
+        combo_F4 {
+            bindings = <&kp F4>;
+            key-positions = <17 4>;
+            layers = <0>;
+        };
+
+        combo_F5 {
+            bindings = <&kp F5>;
+            key-positions = <18 5>;
+            layers = <0>;
+        };
+
+        combo_F6 {
+            bindings = <&kp F6>;
+            key-positions = <20 7>;
+            layers = <0>;
+        };
+
+        combo_F7 {
+            bindings = <&kp F7>;
+            key-positions = <8 21>;
+            layers = <0>;
+        };
+
+        combo_F8 {
+            bindings = <&kp F8>;
+            key-positions = <22 9>;
+            layers = <0>;
+        };
+
+        combo_F9 {
+            bindings = <&kp F9>;
+            key-positions = <10 23>;
+            layers = <0>;
+        };
+
+        combo_F10 {
+            bindings = <&kp F10>;
+            key-positions = <24 11>;
+            layers = <0>;
+        };
+
+        combo_F11 {
+            bindings = <&kp F11>;
+            key-positions = <25 12>;
+            layers = <0>;
+        };
+
+        combo_F12 {
+            bindings = <&kp F12>;
+            key-positions = <13 0>;
             layers = <0>;
         };
     };
