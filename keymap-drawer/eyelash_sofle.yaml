@@ -364,5 +364,5 @@ combos:
   k: _
   l: [Base]
 - p: [25, 38]
-  k: {t: '-', s: _}
+  k: KP MINUS
   l: [Base]
