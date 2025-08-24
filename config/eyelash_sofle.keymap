@@ -280,6 +280,42 @@
             key-positions = <37 50>;
             layers = <0>;
         };
+
+        combo_LPAR {
+            bindings = <&kp LPAR>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        combo_RPAR {
+            bindings = <&kp LPAR>;
+            key-positions = <33 34>;
+            layers = <0>;
+        };
+
+        combo_LBRC {
+            bindings = <&kp LBRC>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
+
+        combo_RBRC {
+            bindings = <&kp LBRC>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        combo_LBKT {
+            bindings = <&kp LBKT>;
+            key-positions = <43 44>;
+            layers = <0>;
+        };
+
+        combo_RBKT {
+            bindings = <&kp LBKT>;
+            key-positions = <46 47>;
+            layers = <0>;
+        };
     };
 
     keymap {
