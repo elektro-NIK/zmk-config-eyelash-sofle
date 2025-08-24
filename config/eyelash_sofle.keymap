@@ -149,12 +149,6 @@
             layers = <0>;
         };
 
-        combo_grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <13 26>;
-            layers = <0>;
-        };
-
         combo_F1 {
             bindings = <&kp F1>;
             key-positions = <14 1>;
@@ -284,18 +278,6 @@
         combo_RPAR {
             bindings = <&kp RPAR>;
             key-positions = <37 50>;
-            layers = <0>;
-        };
-
-        combo_UNDER {
-            bindings = <&kp UNDER>;
-            key-positions = <38 51>;
-            layers = <0>;
-        };
-
-        combo_MINUS {
-            bindings = <&kp KP_MINUS>;
-            key-positions = <25 38>;
             layers = <0>;
         };
     };
