@@ -220,6 +220,66 @@
             key-positions = <37 24>;
             layers = <0>;
         };
+
+        combo_EQ {
+            bindings = <&kp EQUAL>;
+            key-positions = <27 40>;
+            layers = <0>;
+        };
+
+        combo_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <28 41>;
+            layers = <0>;
+        };
+
+        combo_PLUS {
+            bindings = <&kp PLUS>;
+            key-positions = <29 42>;
+            layers = <0>;
+        };
+
+        combo_BSLH {
+            bindings = <&kp BSLH>;
+            key-positions = <30 43>;
+            layers = <0>;
+        };
+
+        combo_TILDE {
+            bindings = <&kp TILDE>;
+            key-positions = <44 31>;
+            layers = <0>;
+        };
+
+        combo_UNDER {
+            bindings = <&kp UNDER>;
+            key-positions = <33 46>;
+            layers = <0>;
+        };
+
+        combo_PIPE {
+            bindings = <&kp PIPE>;
+            key-positions = <34 47>;
+            layers = <0>;
+        };
+
+        combo_SLASH {
+            bindings = <&kp SLASH>;
+            key-positions = <35 48>;
+            layers = <0>;
+        };
+
+        combo_LT {
+            bindings = <&kp LT>;
+            key-positions = <36 49>;
+            layers = <0>;
+        };
+
+        combo_GT {
+            bindings = <&kp GT>;
+            key-positions = <37 50>;
+            layers = <0>;
+        };
     };
 
     keymap {
