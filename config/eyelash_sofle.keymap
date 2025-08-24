@@ -281,13 +281,13 @@
             layers = <0>;
         };
 
-        combo_LPAR {
+        combo_LPAR2 {
             bindings = <&kp LPAR>;
             key-positions = <30 31>;
             layers = <0>;
         };
 
-        combo_RPAR {
+        combo_RPAR2 {
             bindings = <&kp RPAR>;
             key-positions = <33 34>;
             layers = <0>;
