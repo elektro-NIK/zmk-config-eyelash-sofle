@@ -87,14 +87,14 @@
         compatible = "zmk,behavior-tap-dance";
         label = "Tap dance right bootloader";
         #binding-cells = <0>;
-        bindings = <&out OUT_TOG>, <&none>, <&none>, <&none>, <&bootloader>;
+        bindings = <&out OUT_TOG>, <&bootloader>;
     };
 
     tdlb: tap_dance_lboot {
         compatible = "zmk,behavior-tap-dance";
         label = "Tap dance left bootloader";
         #binding-cells = <0>;
-        bindings = <&bt BT_CLR>, <&none>, <&none>, <&none>, <&bootloader>;
+        bindings = <&bt BT_CLR>, <&bootloader>;
     };
 
     behaviors {
