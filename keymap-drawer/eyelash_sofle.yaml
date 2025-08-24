@@ -291,9 +291,6 @@ combos:
 - p: [24, 37]
   k: {t: '0', s: )}
   l: [Base]
-- p: [13, 26]
-  k: {t: '`', s: '~'}
-  l: [Base]
 - p: [14, 1]
   k: F1
   l: [Base]
@@ -359,10 +356,4 @@ combos:
   l: [Base]
 - p: [37, 50]
   k: )
-  l: [Base]
-- p: [38, 51]
-  k: _
-  l: [Base]
-- p: [25, 38]
-  k: KP MINUS
   l: [Base]
