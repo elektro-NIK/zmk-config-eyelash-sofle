@@ -83,6 +83,20 @@
         bindings = <&mkp LCLK>, <&mkp RCLK>, <&mkp MCLK>;
     };
 
+    tdrb: tap_dance_rboot {
+        compatible = "zmk,behavior-tap-dance";
+        label = "Tap dance right bootloader";
+        #binding-cells = <0>;
+        bindings = <&out OUT_TOG>, <&none>, <&none>, <&none>, <&bootloader>;
+    };
+
+    tdlb: tap_dance_lboot {
+        compatible = "zmk,behavior-tap-dance";
+        label = "Tap dance left bootloader";
+        #binding-cells = <0>;
+        bindings = <&bt BT_CLR>, <&none>, <&none>, <&none>, <&bootloader>;
+    };
+
     behaviors {
     };
 
@@ -334,33 +348,20 @@
 &kp ESC     &kp Q     &kp W     &kp E      &kp R   &kp T        &mmv MOVE_DOWN   &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSPC
 &kp TAB     &kp A     &kp S     &kp D      &kp F   &kp G        &mmv MOVE_LEFT   &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &tdls       &kp Z     &kp X     &kp C      &kp V   &kp B        &mmv MOVE_RIGHT  &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &tdrs
-&kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &slq 2  &kp SPACE    &tdm             &kp ENTER  &slq 1  &kp RCTRL  &kp RALT  &kp RGUI
+&kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &slq 1  &kp SPACE    &tdm             &kp ENTER  &slq 0  &kp RCTRL  &kp RALT  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        raise_layer {
-            display-name = "Navigate";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp PG_DN  &kp PG_UP  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans     &trans     &trans     &trans
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-        };
-
         adjust_layer {
             display-name = "Adjust";
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &none       &none     &none   &none       &none   &out OUT_TOG
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF    &trans  &none       &none     &none   &none       &none   &studio_unlock
-&none            &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &none              &trans  &kp C_PREV  &kp C_PP  &none   &kp C_NEXT  &none   &none
-&none            &none            &none            &none            &none            &none              &trans  &none       &none     &none   &none       &none   &none
-&trans           &trans           &trans           &trans           &trans           &trans             &trans  &trans      &trans    &trans  &trans      &trans
+&tdlb            &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &none     &none      &none      &none      &none   &tdrb
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF    &trans  &none     &kp PG_DN  &kp PG_UP  &none      &none   &none
+&none            &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &none              &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none   &none
+&none            &none            &none            &none            &none            &none              &trans  &none     &none      &none      &none      &none   &none
+&trans           &trans           &trans           &trans           &trans           &trans             &trans  &trans    &trans     &trans     &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
