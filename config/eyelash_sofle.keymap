@@ -294,7 +294,7 @@
         };
 
         combo_MINUS {
-            bindings = <&kp MINUS>;
+            bindings = <&kp KP_MINUS>;
             key-positions = <25 38>;
             layers = <0>;
         };
