@@ -288,7 +288,7 @@
         };
 
         combo_RPAR {
-            bindings = <&kp LPAR>;
+            bindings = <&kp RPAR>;
             key-positions = <33 34>;
             layers = <0>;
         };
@@ -300,7 +300,7 @@
         };
 
         combo_RBRC {
-            bindings = <&kp LBRC>;
+            bindings = <&kp RBRC>;
             key-positions = <20 21>;
             layers = <0>;
         };
@@ -312,7 +312,7 @@
         };
 
         combo_RBKT {
-            bindings = <&kp LBKT>;
+            bindings = <&kp RBKT>;
             key-positions = <46 47>;
             layers = <0>;
         };
