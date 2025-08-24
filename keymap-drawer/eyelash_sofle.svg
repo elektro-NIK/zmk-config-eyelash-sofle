@@ -776,6 +776,32 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="826" y="183" width="28" height="26" class="combo"/>
 <text x="840" y="196" class="combo tap">&gt;</text>
 </g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">(</text>
+</g>
+<g class="combo combopos-33">
+<rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
+<text x="644" y="147" class="combo tap">(</text>
+</g>
+<g class="combo combopos-34">
+<rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
+<text x="280" y="91" class="combo tap">{</text>
+</g>
+<g class="combo combopos-35">
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">{</text>
+</g>
+<g class="combo combopos-36">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">[</text>
+<text x="280" y="192" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-37">
+<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
+<text x="644" y="203" class="combo tap">[</text>
+<text x="644" y="192" class="combo shifted">{</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-Symbols">
