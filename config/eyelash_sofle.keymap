@@ -89,66 +89,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_1 {
-            bindings = <&kp N1>;
-            key-positions = <14 27>;
-            layers = <0>;
-        };
-
-        combo_2 {
-            bindings = <&kp N2>;
-            key-positions = <15 28>;
-            layers = <0>;
-        };
-
-        combo_3 {
-            bindings = <&kp N3>;
-            key-positions = <29 16>;
-            layers = <0>;
-        };
-
-        combo_4 {
-            bindings = <&kp N4>;
-            key-positions = <17 30>;
-            layers = <0>;
-        };
-
-        combo_5 {
-            bindings = <&kp N5>;
-            key-positions = <31 18>;
-            layers = <0>;
-        };
-
-        combo_6 {
-            bindings = <&kp N6>;
-            key-positions = <20 33>;
-            layers = <0>;
-        };
-
-        combo_7 {
-            bindings = <&kp N7>;
-            key-positions = <21 34>;
-            layers = <0>;
-        };
-
-        combo_8 {
-            bindings = <&kp N8>;
-            key-positions = <35 22>;
-            layers = <0>;
-        };
-
-        combo_9 {
-            bindings = <&kp N9>;
-            key-positions = <23 36>;
-            layers = <0>;
-        };
-
-        combo_0 {
-            bindings = <&kp N0>;
-            key-positions = <24 37>;
-            layers = <0>;
-        };
-
         combo_F1 {
             bindings = <&kp F1>;
             key-positions = <14 1>;
@@ -223,61 +163,61 @@
 
         combo_EXCL {
             bindings = <&kp EXCL>;
-            key-positions = <27 40>;
+            key-positions = <27 14>;
             layers = <0>;
         };
 
         combo_AT {
             bindings = <&kp AT>;
-            key-positions = <28 41>;
+            key-positions = <28 15>;
             layers = <0>;
         };
 
         combo_HASH {
             bindings = <&kp HASH>;
-            key-positions = <29 42>;
+            key-positions = <29 16>;
             layers = <0>;
         };
 
         combo_DLLR {
             bindings = <&kp DLLR>;
-            key-positions = <30 43>;
+            key-positions = <30 17>;
             layers = <0>;
         };
 
         combo_PRCNT {
             bindings = <&kp PRCNT>;
-            key-positions = <44 31>;
+            key-positions = <31 18>;
             layers = <0>;
         };
 
         combo_CARET {
             bindings = <&kp CARET>;
-            key-positions = <33 46>;
+            key-positions = <33 20>;
             layers = <0>;
         };
 
         combo_AMPS {
             bindings = <&kp AMPS>;
-            key-positions = <34 47>;
+            key-positions = <34 21>;
             layers = <0>;
         };
 
         combo_ASTRK {
             bindings = <&kp ASTRK>;
-            key-positions = <35 48>;
+            key-positions = <35 22>;
             layers = <0>;
         };
 
         combo_LPAR {
             bindings = <&kp LPAR>;
-            key-positions = <49 36>;
+            key-positions = <36 23>;
             layers = <0>;
         };
 
         combo_RPAR {
             bindings = <&kp RPAR>;
-            key-positions = <37 50>;
+            key-positions = <37 24>;
             layers = <0>;
         };
     };
