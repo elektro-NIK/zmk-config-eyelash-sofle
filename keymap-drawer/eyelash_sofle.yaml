@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '&tdm'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Base, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: Adjust, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - RGUI
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
