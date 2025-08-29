@@ -91,7 +91,7 @@ layers:
   - PG UP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRD
   - RGB BRI
@@ -221,28 +221,28 @@ combos:
 - p: [35, 48]
   k: {t: /, s: '?'}
   l: [Base]
-- p: [36, 49]
+- p: [30, 31]
   k: <
   l: [Base]
-- p: [37, 50]
+- p: [34, 33]
   k: '>'
   l: [Base]
-- p: [30, 31]
+- p: [30, 29]
   k: (
   l: [Base]
-- p: [33, 34]
+- p: [34, 35]
   k: )
   l: [Base]
-- p: [17, 18]
+- p: [28, 29]
   k: '{'
   l: [Base]
-- p: [20, 21]
+- p: [35, 36]
   k: '}'
   l: [Base]
-- p: [43, 44]
+- p: [28, 27]
   k: {t: '[', s: '{'}
   l: [Base]
-- p: [46, 47]
+- p: [36, 37]
   k: {t: ']', s: '}'}
   l: [Base]
 - p: [25, 24]
