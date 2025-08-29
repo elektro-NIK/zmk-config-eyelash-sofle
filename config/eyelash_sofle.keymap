@@ -331,9 +331,63 @@
             layers = <0>;
         };
 
-        combo_DEL {
-            bindings = <&kp DELETE>;
-            key-positions = <25 24>;
+        combo_1 {
+            bindings = <&kp N1>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        combo_2 {
+            bindings = <&kp N2>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
+
+        combo_3 {
+            bindings = <&kp N3>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        combo_4 {
+            bindings = <&kp N4>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        combo_5 {
+            bindings = <&kp N5>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
+
+        combo_6 {
+            bindings = <&kp N6>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        combo_7 {
+            bindings = <&kp N7>;
+            key-positions = <21 22>;
+            layers = <0>;
+        };
+
+        combo_8 {
+            bindings = <&kp N8>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+
+        combo_9 {
+            bindings = <&kp N9>;
+            key-positions = <23 24>;
+            layers = <0>;
+        };
+
+        combo_0 {
+            bindings = <&kp N0>;
+            key-positions = <24 25>;
             layers = <0>;
         };
     };
