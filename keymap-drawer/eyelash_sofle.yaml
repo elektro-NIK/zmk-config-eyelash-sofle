@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - '&tdrs'
   - $$mdi:volume-off$$
-  - LGUI
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - Adjust
@@ -64,7 +64,7 @@ layers:
   - Adjust
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - RGUI
+  - $$mdi:apple-keyboard-command$$
   Adjust:
   - '&tdlb'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
