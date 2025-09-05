@@ -1,10 +1,5 @@
 draw_config:
   dark_mode: true
-  shrink_wide_legends: 6
-  glyph_tap_size: 18
-  glyph_hold_size: 15
-  glyph_shifted_size: 15
-  glyphs: {}
   glyph_urls:
     tabler: https://unpkg.com/@tabler/icons/icons/outline/{}.svg
     tablerf: https://unpkg.com/@tabler/icons/icons/filled/{}.svg
