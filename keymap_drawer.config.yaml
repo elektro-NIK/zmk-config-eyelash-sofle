@@ -59,6 +59,10 @@ parse_config:
       tap: $$mdi:keyboard-caps$$
       hold: $$mdi:apple-keyboard-shift$$
       shifted: $$mdi:apple-keyboard-caps$$
+    "&tdrs":
+      tap: $$mdi:keyboard-caps$$
+      hold: $$mdi:apple-keyboard-shift$$
+      shifted: $$mdi:apple-keyboard-caps$$
 
     # Empty
     "&none":
