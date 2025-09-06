@@ -72,7 +72,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
-  - {t: '$$mdi:pan-up$$', s: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:pan-up$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -85,7 +85,7 @@ layers:
   - RGB SAD
   - RGB SAI
   - RGB EFF
-  - {t: '$$mdi:pan-down$$', s: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:pan-down$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG DN
   - PG UP
@@ -98,7 +98,7 @@ layers:
   - RGB SPD
   - RGB SPI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:pan-left$$', s: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', left: '$$mdi:pan-left$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -111,7 +111,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:pan-right$$', s: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', right: '$$mdi:pan-right$$'}
   - PREV
   - PP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
