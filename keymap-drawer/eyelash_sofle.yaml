@@ -13,14 +13,14 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
   - R
   - T
-  - {h: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:menu-down$$'}
   - Y
   - U
   - I
@@ -73,11 +73,11 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:pan-up$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - '&tdrb'
   - RGB TOG
   - RGB HUD
@@ -86,38 +86,38 @@ layers:
   - RGB SAI
   - RGB EFF
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:pan-down$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - PG DN
   - PG UP
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - RGB BRD
   - RGB BRI
   - RGB SPD
   - RGB SPI
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:mouse-scroll-wheel$$', left: '$$mdi:pan-left$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:mouse-scroll-wheel$$', right: '$$mdi:pan-right$$'}
   - PREV
   - PP
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - NEXT
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
-  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
