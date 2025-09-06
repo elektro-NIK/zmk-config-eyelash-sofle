@@ -7,20 +7,20 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:mouse$$', s: '$$mdi:menu-up$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
   - R
   - T
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {h: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:mouse$$', left: '$$mdi:menu-left$$'}
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:mouse$$', right: '$$mdi:menu-right$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -73,11 +73,11 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:pan-up$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - '&tdrb'
   - RGB TOG
   - RGB HUD
@@ -86,38 +86,38 @@ layers:
   - RGB SAI
   - RGB EFF
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:pan-down$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - PG DN
   - PG UP
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - RGB BRD
   - RGB BRI
   - RGB SPD
   - RGB SPI
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - {t: '$$mdi:mouse-scroll-wheel$$', left: '$$mdi:pan-left$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - {t: '$$mdi:mouse-scroll-wheel$$', right: '$$mdi:pan-right$$'}
   - PREV
   - PP
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - NEXT
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
+  - {t: '$$mdi:minus-circle-outline$$', type: ghost}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
