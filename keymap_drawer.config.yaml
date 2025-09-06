@@ -43,20 +43,22 @@ parse_config:
       shifted: $$mdi:mouse$$
     "&tdm":
       tap: $$mdi:cursor-default-click$$
-      hold: ''
-      shifted: ''
-      
     "&mkp LCLK":
       tap: $$mdi:mouse-left-click-outline$$
     "&mkp RCLK":
       tap: $$mdi:mouse-right-click-outline$$
     "&mkp MCLK":
       tap: $$mdi:mouse-scroll-wheel$$
+
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
       tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:toggle-switch$$
+    "&tdls":
+      tap: $$mdi:keyboard-caps$$
+      hold: $$mdi:apple-keyboard-shift$$
+      shifted: $$mdi:apple-keyboard-caps$$
 
     # Empty
     "&none":
