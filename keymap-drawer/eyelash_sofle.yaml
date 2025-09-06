@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&tdrs'
+  - {t: '$$mdi:keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
