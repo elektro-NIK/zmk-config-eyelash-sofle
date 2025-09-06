@@ -31,7 +31,7 @@ parse_config:
       tap: $$mdi:mouse$$
       shifted: $$mdi:menu-up$$
     "&mmv MOVE_DOWN":
-      shifted: $$mdi:mouse$$
+      tap: $$mdi:mouse$$
       hold: $$mdi:menu-down$$
     "&tdm":      $$mdi:cursor-default-click$$
     "&mkp LCLK": $$mdi:mouse-left-click-outline$$
@@ -48,10 +48,9 @@ parse_config:
       hold: $$mdi:apple-keyboard-shift$$
       shifted: $$mdi:apple-keyboard-caps$$
 
-    # Empty
     "&none":
       tap: $$mdi:minus-circle-outline$$
-      type: ghost
+      type: trans
 
     # Whitespace
     "&bkspc_del":
