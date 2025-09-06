@@ -22,35 +22,23 @@ parse_config:
       tap: $$mdi:mouse-scroll-wheel$$
       right: $$mdi:pan-right$$
     "&mmv MOVE_LEFT":
-      tap: $$mdi:menu-left$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      tap: $$mdi:mouse$$
+      left: $$mdi:menu-left$$
     "&mmv MOVE_RIGHT":
-      tap: $$mdi:menu-right$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      tap: $$mdi:mouse$$
+      right: $$mdi:menu-right$$
     "&mmv MOVE_UP":
-      tap: $$mdi:menu-up$$
-      hold: ''
-      shifted: $$mdi:mouse$$
+      tap: $$mdi:mouse$$
+      shifted: $$mdi:menu-up$$
     "&mmv MOVE_DOWN":
-      tap: $$mdi:menu-down$$
-      hold: ''
       shifted: $$mdi:mouse$$
-    "&tdm":
-      tap: $$mdi:cursor-default-click$$
-    "&mkp LCLK":
-      tap: $$mdi:mouse-left-click-outline$$
-    "&mkp RCLK":
-      tap: $$mdi:mouse-right-click-outline$$
-    "&mkp MCLK":
-      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:menu-down$$
+    "&tdm":      $$mdi:cursor-default-click$$
+    "&mkp LCLK": $$mdi:mouse-left-click-outline$$
+    "&mkp RCLK": $$mdi:mouse-right-click-outline$$
+    "&mkp MCLK": $$mdi:mouse-scroll-wheel$$
 
-    # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
-    "&kt RSHIFT":
-      tap: $$mdi:apple-keyboard-shift$$
-      hold: $$mdi:toggle-switch$$
     "&tdls":
       tap: $$mdi:keyboard-caps$$
       hold: $$mdi:apple-keyboard-shift$$
@@ -63,7 +51,7 @@ parse_config:
     # Empty
     "&none":
       tap: $$mdi:minus-circle-outline$$
-      type: none
+      type: ghost
 
     # Whitespace
     "&bkspc_del":
