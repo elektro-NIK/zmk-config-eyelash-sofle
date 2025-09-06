@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - $$mdi:keyboard-space$$
-  - '&tdm'
+  - $$mdi:cursor-default-click$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Adjust
   - $$mdi:apple-keyboard-control$$
