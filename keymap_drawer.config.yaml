@@ -10,21 +10,17 @@ parse_config:
 
   raw_binding_map:
     "&msc SCRL_UP":
-      tap: $$mdi:pan-up$$
-      hold: ''
-      shifted: $$mdi:mouse-scroll-wheel$$
+      tap: $$mdi:mouse-scroll-wheel$$
+      shifted: $$mdi:pan-up$$
     "&msc SCRL_DOWN":
-      tap: $$mdi:pan-down$$
-      hold: ''
-      shifted: $$mdi:mouse-scroll-wheel$$
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:pan-down$$
     "&msc SCRL_LEFT":
-      tap: $$mdi:pan-left$$
-      hold: ''
-      shifted: $$mdi:mouse-scroll-wheel$$
+      tap: $$mdi:mouse-scroll-wheel$$
+      left: $$mdi:pan-left$$
     "&msc SCRL_RIGHT":
-      tap: $$mdi:pan-right$$
-      hold: ''
-      shifted: $$mdi:mouse-scroll-wheel$$
+      tap: $$mdi:mouse-scroll-wheel$$
+      right: $$mdi:pan-right$$
     "&mmv MOVE_LEFT":
       tap: $$mdi:menu-left$$
       hold: ''
