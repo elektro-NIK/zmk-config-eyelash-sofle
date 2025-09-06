@@ -1,6 +1,5 @@
 draw_config:
   dark_mode: true
-  use_local_cache: true
 
 parse_config:
   mark_alternate_layer_activators: true
