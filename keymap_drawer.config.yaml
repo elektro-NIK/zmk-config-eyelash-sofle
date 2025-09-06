@@ -9,23 +9,22 @@ parse_config:
     type: trans
 
   raw_binding_map:
-    # Mouse
     "&msc SCRL_UP":
       tap: $$mdi:pan-up$$
       hold: ''
-      shifted: ''
+      shifted: $$mdi:mouse-scroll-wheel$$
     "&msc SCRL_DOWN":
       tap: $$mdi:pan-down$$
       hold: ''
-      shifted: ''
+      shifted: $$mdi:mouse-scroll-wheel$$
     "&msc SCRL_LEFT":
       tap: $$mdi:pan-left$$
       hold: ''
-      shifted: ''
+      shifted: $$mdi:mouse-scroll-wheel$$
     "&msc SCRL_RIGHT":
       tap: $$mdi:pan-right$$
       hold: ''
-      shifted: ''
+      shifted: $$mdi:mouse-scroll-wheel$$
     "&mmv MOVE_LEFT":
       tap: $$mdi:menu-left$$
       hold: ''
