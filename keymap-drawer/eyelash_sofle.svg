@@ -15,6 +15,12 @@
 <svg id="mdi:apple-keyboard-shift">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
 </svg>
+<svg id="mdi:arrow-collapse-down">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-collapse-down" viewBox="0 0 24 24"><path d="M19.92,12.08L12,20L4.08,12.08L5.5,10.67L11,16.17V2H13V16.17L18.5,10.66L19.92,12.08M12,20H2V22H22V20H12Z" /></svg>
+</svg>
+<svg id="mdi:arrow-collapse-up">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-collapse-up" viewBox="0 0 24 24"><path d="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z" /></svg>
+</svg>
 <svg id="mdi:arrow-down-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
 </svg>
@@ -832,15 +838,11 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(672, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">DN</tspan>
-</text>
+<use href="#mdi:arrow-collapse-down" xlink:href="#mdi:arrow-collapse-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-collapse-down"/>
 </g>
 <g transform="translate(728, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
-</text>
+<use href="#mdi:arrow-collapse-up" xlink:href="#mdi:arrow-collapse-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-collapse-up"/>
 </g>
 <g transform="translate(784, 91)" class="key trans keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
