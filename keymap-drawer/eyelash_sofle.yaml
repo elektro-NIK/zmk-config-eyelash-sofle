@@ -67,11 +67,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   Adjust:
   - '&tdlb'
-  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+  - '&bt_hold BT_SEL 0 0'
+  - '&bt_hold BT_SEL 0 1'
+  - '&bt_hold BT_SEL 0 2'
+  - '&bt_hold BT_SEL 0 3'
+  - '&bt_hold BT_SEL 0 4'
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:pan-up$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: trans}
