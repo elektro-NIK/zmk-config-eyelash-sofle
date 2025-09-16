@@ -67,11 +67,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   Adjust:
   - '&tdlb'
-  - '&bt_hold BT_SEL 0 0'
-  - '&bt_hold BT_SEL 0 1'
-  - '&bt_hold BT_SEL 0 2'
-  - '&bt_hold BT_SEL 0 3'
-  - '&bt_hold BT_SEL 0 4'
+  - '&bt_hold BT_SEL BT_NXT 0'
+  - '&bt_hold BT_SEL BT_NXT 1'
+  - '&bt_hold BT_SEL BT_NXT 2'
+  - '&bt_hold BT_SEL BT_NXT 3'
+  - '&bt_hold BT_SEL BT_NXT 4'
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:pan-up$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: trans}
