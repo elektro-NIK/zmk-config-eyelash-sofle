@@ -100,7 +100,7 @@
     bt_hold: bt_hold {
         compatible = "zmk,behavior-hold-tap";
         label = "Bluetooth hold";
-        bindings = <&bt>, <&trans>;
+        bindings = <&bt>, <&bt>;
 
         #binding-cells = <2>;
         tapping-term-ms = <1000>;
@@ -420,11 +420,11 @@
         adjust_layer {
             display-name = "Adjust";
             bindings = <
-&tdlb            &bt_hold BT_SEL 0 0  &bt_hold BT_SEL 0 1  &bt_hold BT_SEL 0 2  &bt_hold BT_SEL 0 3  &bt_hold BT_SEL 0 4    &msc SCRL_UP     &none       &none      &none      &none       &none   &tdrb
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUD      &rgb_ug RGB_HUI      &rgb_ug RGB_SAD      &rgb_ug RGB_SAI      &rgb_ug RGB_EFF        &msc SCRL_DOWN   &none       &kp PG_DN  &kp PG_UP  &none       &none   &kp DELETE
-&none            &rgb_ug RGB_BRD      &rgb_ug RGB_BRI      &rgb_ug RGB_SPD      &rgb_ug RGB_SPI      &none                  &msc SCRL_LEFT   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT   &none   &none
-&none            &none                &none                &none                &none                &none                  &msc SCRL_RIGHT  &kp K_PREV  &kp K_PP   &none      &kp K_NEXT  &none   &none
-&trans           &trans               &trans               &trans               &none                &trans                 &trans           &trans      &none      &trans     &trans      &trans
+&tdlb            &bt_hold BT_SEL BT_NXT 0  &bt_hold BT_SEL BT_NXT 1  &bt_hold BT_SEL BT_NXT 2  &bt_hold BT_SEL BT_NXT 3  &bt_hold BT_SEL BT_NXT 4    &msc SCRL_UP     &none       &none      &none      &none       &none   &tdrb
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUD           &rgb_ug RGB_HUI           &rgb_ug RGB_SAD           &rgb_ug RGB_SAI           &rgb_ug RGB_EFF             &msc SCRL_DOWN   &none       &kp PG_DN  &kp PG_UP  &none       &none   &kp DELETE
+&none            &rgb_ug RGB_BRD           &rgb_ug RGB_BRI           &rgb_ug RGB_SPD           &rgb_ug RGB_SPI           &none                       &msc SCRL_LEFT   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT   &none   &none
+&none            &none                     &none                     &none                     &none                     &none                       &msc SCRL_RIGHT  &kp K_PREV  &kp K_PP   &none      &kp K_NEXT  &none   &none
+&trans           &trans                    &trans                    &trans                    &none                     &trans                      &trans           &trans      &none      &trans     &trans      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
