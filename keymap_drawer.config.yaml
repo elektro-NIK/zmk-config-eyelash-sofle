@@ -49,7 +49,7 @@ parse_config:
       shifted: $$mdi:apple-keyboard-caps$$
 
     "&mo 1":
-      hold: $$mdi:chevron-double-down$$
+      tap: $$mdi:chevron-double-down$$
 
     "&none":
       tap: $$mdi:minus-circle-outline$$
