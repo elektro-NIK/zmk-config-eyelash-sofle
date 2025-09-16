@@ -55,6 +55,11 @@ parse_config:
       tap: $$mdi:minus-circle-outline$$
       type: trans
 
+    "&kp PG_UP":
+      tap: $$mdi:arrow-collapse-up$$
+    "&kp PG_DN":
+      tap: $$mdi:arrow-collapse-down$$
+
     # Whitespace
     "&bkspc_del":
       type: backspace
