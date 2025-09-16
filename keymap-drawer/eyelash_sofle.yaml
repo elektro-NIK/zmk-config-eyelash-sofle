@@ -57,11 +57,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - Adjust
+  - {h: '$$mdi:chevron-double-down$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:cursor-default-click$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Adjust
+  - {h: '$$mdi:chevron-double-down$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
   - {t: '$$mdi:layers-outline$$', type: trans}
