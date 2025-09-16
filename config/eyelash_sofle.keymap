@@ -100,7 +100,7 @@
     bt_hold: bt_hold {
         compatible = "zmk,behavior-hold-tap";
         label = "Bluetooth hold";
-        bindings = <&bt>, <&none>;
+        bindings = <&bt>, <&trans>;
 
         #binding-cells = <2>;
         tapping-term-ms = <1000>;
