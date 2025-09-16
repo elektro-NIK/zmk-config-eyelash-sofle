@@ -48,6 +48,9 @@ parse_config:
       hold: $$mdi:apple-keyboard-shift$$
       shifted: $$mdi:apple-keyboard-caps$$
 
+    "&mo 1":
+      hold: $$mdi:chevron-double-down$$
+
     "&none":
       tap: $$mdi:minus-circle-outline$$
       type: trans
